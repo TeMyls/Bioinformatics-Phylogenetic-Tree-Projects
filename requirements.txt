@@ -1,0 +1,16 @@
+# Exact versions used to develop and test this repo (Python 3.13).
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+matplotlib==3.11.2
+
+# Only needed to run the notebooks / tests
+jupyter
+pytest
+
+# External programs (NOT pip packages; optional, auto-detected on PATH):
+#   FastTree 2.1.x      http://www.microbesonline.org/fasttree/
+#   IQ-TREE 2.x         http://www.iqtree.org/
+#   RAxML-NG 1.x        https://github.com/amkozlov/raxml-ng
+#   MAFFT 7.x / nextalign   (alignment of real genomes to the Wuhan-Hu-1 reference)
+#   treetime (pip install phylo-treetime) or BEAST for publication-grade dating
