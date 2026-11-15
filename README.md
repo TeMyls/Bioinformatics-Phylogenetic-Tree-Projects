@@ -1,6 +1,6 @@
 # covid-phylo
 
-> **AI-use disclosure.** The code in this repository (`src/`, `scripts/`, `notebooks/`, `tests/`) was drafted with Claude
+> **AI-use disclosure.** The code in this repository (`src/`, `scripts/`, `tests/`) was drafted with Claude
 > (Anthropic). I ran it, tested it against simulated ground truth and unit tests, and is responsible for it.
 > **I came up with the idea, drafted it, and directed Claude** 
 
