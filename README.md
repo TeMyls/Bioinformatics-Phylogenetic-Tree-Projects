@@ -2,7 +2,7 @@
 
 > **AI-use disclosure.** The code in this repository (`src/`, `scripts/`, `notebooks/`, `tests/`) was drafted with Claude
 > (Anthropic). I ran it, tested it against simulated ground truth and unit tests, and is responsible for it.
-> **I came up with the idea, drafted it, and directed Claude** (MSBI 555 requires the disclosure here or at the top of the notebook).
+> **I came up with the idea, drafted it, and directed Claude** 
 
 Two SARS-CoV-2 phylogenetics projects on **one shared code base**: **(A)** benchmarking tree-inference algorithms on
 Pango-labelled genomes, and **(B)** reconstructing and dating SARS-CoV-2 trees. MSBI 555 Applied Computational Genomics, Fall 2026.
