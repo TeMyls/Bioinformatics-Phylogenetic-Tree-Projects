@@ -108,18 +108,3 @@ report/        manuscript_outline.md, presentation_outline.md
 | permutation / bootstrap | 1000 / 500 | `reconstruct.py` | see limitations |
 | simulation | rate 1e-3/site/yr, kappa 4, Gamma 0.5, birth 2 / death 0.3 / sampling 0.4 | `simulate.py` | roughly SARS-CoV-2-like, not fitted |
 
-## 7. Known limitations (state them in the manuscript)
-
-* **Pango lineages are not ground truth** (derived from trees). Aliases such as `AY.4` are not resolved.
-* The root-to-tip permutation keeps the root fixed; bootstrap intervals cover regression error only (in one simulated check the
-  tMRCA interval narrowly missed the truth).
-* Simulation uses K80+Gamma with no recombination or sequencing error. Indels are not called (gaps are missing data).
-* Internal NJ memory uses `tracemalloc`; external tools use `/usr/bin/time -v`. Compare within a source only.
-* **Never run here:** FastTree, IQ-TREE, RAxML-NG, MAFFT, `fetch_data.sh`, `slurm_pipeline.sh` and the real-data code paths
-  (the dev sandbox had no network or installs). Run a 50-genome trial of each before a long job.
-
-## 8. MSBI 555 notebook/code rubric (50 pts)
-
-* **Reproducible (20):** every figure/table regenerates from the commands above; results match the manuscript.
-* **Clean and commented (15):** commented modules, one notebook per stage, no dead code.
-* **README (15):** provenance, versions and run order are in "Quick facts" - **fill the blanks (download date, tool versions).**
