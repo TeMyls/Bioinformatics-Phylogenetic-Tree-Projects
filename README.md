@@ -5,7 +5,7 @@
 > **I came up with the idea, drafted it, and directed Claude** 
 
 Two SARS-CoV-2 phylogenetics projects on **one shared code base**: **(A)** benchmarking tree-inference algorithms on
-Pango-labelled genomes, and **(B)** reconstructing and dating SARS-CoV-2 trees. MSBI 555 Applied Computational Genomics, Fall 2026.
+Pango-labelled genomes, and **(B)** reconstructing and dating SARS-CoV-2 trees. 
 
 ## Quick facts (the half-page README)
 
